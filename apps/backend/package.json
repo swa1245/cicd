@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-	"db": "*"
-},
+    "@types/express": "^5.0.1",
+    "db": "*",
+    "express": "^4.21.2"
+  },
   "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
 }
